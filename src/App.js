@@ -6,10 +6,11 @@ import About from './Pages/About'
 import SingleCocktail from './Pages/SingleCocktail'
 import Error from './Pages/Error'
 // import components
-import Navbar from './components/Navbar'
+import Navbar from './components/Navbar';
 function App() {
   return (
    <Router>
+<Navbar/>
 
     <Routes>
       <Route exact path="/" element={<Home/>}/>
